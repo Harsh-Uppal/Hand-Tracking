@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://docs.opencv.org/4.5.0/opencv.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <label for="input_video">Video</label>
+        <label for="output_canvas">Hand Tracker</label>
+        <video class="input_video"></video>
+        <canvas id="output_canvas" class="output_canvas" width="1280px" height="720px"></canvas>
+    </div>
+    <script src="./app.js" type="module"></script>
+</body>
+
+</html>
