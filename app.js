@@ -2,7 +2,7 @@ const videoElement = document.getElementsByClassName('input_video')[0];
 const canvasElement = document.getElementsByClassName('output_canvas')[0];
 const canvasCtx = canvasElement.getContext('2d');
 const sounds = [];
-const fingerTouchThreshold = .04;
+const fingerTouchThreshold = .07;
 let isFingerTouching = -1;
 
 for (let i = 0; i < 8; i++) {
